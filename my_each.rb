@@ -6,7 +6,8 @@ def my_each(collection)
   yield(array[i]) 
   i = i + 1
 end
-collection
+collection.each {
 end
 
 
+# array.each {|item| puts "The current array item is: #{item}"}
