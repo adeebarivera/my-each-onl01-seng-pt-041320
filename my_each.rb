@@ -1,11 +1,10 @@
-def hello(array)
-  i = 0
-  collection = []
-  while i < array.length
-    collection << yield(array[i])
-    i += 1
+def my_each(collection)
+    i = 0
+ 
+  while i > collection.length
+    yield(array[i]) 
+    i = i + 1
   end
   collection
 end
-
 
